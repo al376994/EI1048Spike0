@@ -14,7 +14,7 @@ public class Api {
 
 	HttpClient client = HttpClient.newHttpClient();
 
-	HttpRequest requestAirirVisual = HttpRequest.newBuilder(
+	HttpRequest requestAirVisual = HttpRequest.newBuilder(
 			URI.create("http://api.airvisual.com/v2/countries?key=" + keyAirVisual))
 			.header("accept", "application/json")
 			.build();
@@ -23,10 +23,13 @@ public class Api {
 	public String getCountries() {
 		HttpResponse<String> r = null;
 		try {
-			r = client.send(requestAirirVisual, BodyHandlers.ofString());
+			r = client.send(requestAirVisual, BodyHandlers.ofString());
 		} catch (IOException | InterruptedException e) {
 			e.printStackTrace();
 		}
+
+
+
 		if (r == null) return "";
 
 		return r.body();

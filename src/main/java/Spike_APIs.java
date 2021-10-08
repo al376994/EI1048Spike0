@@ -1,4 +1,5 @@
 import APIs.Airvisual;
+import APIs.Openweather;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
@@ -11,7 +12,8 @@ public class Spike_APIs {
 
 	public static void main (String [ ] args) {
 		//printAirVisualAllCountries();
-		printAirVisualAllProvincesFrom("Spain");
+		//printAirVisualAllProvincesFrom("Spain");
+		printOpenWeatherCurrentTimeOfCoords(39.986f, -0.0376709f);
 	}
 
 	static private void printStart() {
@@ -51,6 +53,26 @@ public class Spike_APIs {
 
 		Date date = new Date(2021, 10, 8);
 
+	}
+
+	static private void printOpenWeatherCurrentTimeOfCoords(float lat, float lon) {
+		printStart();
+
+		String raw = Openweather.currentWeatherOnCoords(lat, lon);
+		JSONObject jObject = new JSONObject(raw);
+
+		String weather = jObject.get("weather").toString();
+		weather = new JSONObject(weather.substring(1, weather.length()-1)).get("description").toString();
+
+		String sTemp = jObject.getJSONObject("main").get("temp").toString();
+		double temp = (Double.parseDouble(sTemp) - 273.15);
+		temp = temp - temp%0.01;
+
+		System.out.println(raw);
+		System.out.println("Weather: " + weather);
+		System.out.println("Temperature: " + temp + "ºC");
+
+		printFinal();
 	}
 
 }

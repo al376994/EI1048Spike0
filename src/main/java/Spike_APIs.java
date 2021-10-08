@@ -1,7 +1,11 @@
 import APIs.Airvisual;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 public class Spike_APIs {
 
@@ -36,6 +40,16 @@ public class Spike_APIs {
 
 		String raw = Airvisual.getProvinceFrom(country);
 		JSONObject jObject = new JSONObject(raw);
+
+		List<Object> rawProvinces = jObject.getJSONArray("data").toList();
+		List<String> provinces = rawProvinces.stream()
+				.map(object -> Objects.toString(object, null))
+				.collect(Collectors.toList());
+		provinces.replaceAll(x -> x.substring(7, x.length()-1));
+
+		System.out.println(provinces);
+
+		Date date = new Date(2021, 10, 8);
 
 	}
 

@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae9893e0-3a27-4d94-941a-988378ba0467" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/APIs/Airvisual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APIs/Api.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Airvisual.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Api.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Spike_APIs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Spike_APIs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Airvisual.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Api.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spike_APIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spike_APIs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,12 +24,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Spike_APIs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="39" column="82" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
+            <state relative-caret-position="276">
+              <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/APIs/Airvisual.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -142,7 +135,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1633711340521" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1633712600205" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -221,7 +214,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/APIs/Airvisual.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -244,12 +237,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Spike_APIs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="39" column="82" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
+        <state relative-caret-position="276">
+          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
           </folding>
         </state>
       </provider>

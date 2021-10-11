@@ -17,11 +17,11 @@ public class Spike_APIs {
 	}
 
 	static private void printStart() {
-		System.out.println("\n\n---------------------------------------------------------");
+		System.out.println("\n\n--------------------------------------------------------------");
 	}
 
 	static private void printFinal() {
-		System.out.println("---------------------------------------------------------\n");
+		System.out.println("--------------------------------------------------------------\n");
 	}
 
 	static private void printAirVisualAllCountries() {
